@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	<meta name="description" content="A simple note taking app.">
+    <title>Noteabl</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+	<!-- This loads the main font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+		<!--------- HEADER ---------->
+		<div class = 'header'>
+			<h1 class = 'title'>Noteabl</h1>
+		</div>
+
+
+		<!--------- NOTE-TAKE ---------->
+		<div class = 'note-take'>
+			<textarea class='note-take__text' id='note-take__title' class='flex-container' placeholder='Title' maxlength = '50'></textarea>
+
+			<textarea class='note-take__text' id='note-take__content' class='flex-container' placeholder='Take a note...' maxlength = '700' required></textarea>
+
+			<button class = 'save-button' class = 'flex-container' onclick = "getText()">Save</button>
+		</div>
+
+
+		<!--------- NOTE-BOX ---------->
+		<div id = 'note-store'>
+		</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
