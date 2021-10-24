@@ -1,8 +1,6 @@
 # Noteable
 A simple note taking website
 
-[![Run on Repl.it](https://repl.it/badge/github/3xclamationMark/Noteable)](https://repl.it/github/3xclamationMark/Noteable)
-
 # Creating a note taking app (noteabl):
 
 ## Idea: 
@@ -10,15 +8,16 @@ To make a simple note taking app, simlar to google keep, but simpler. The websit
 
 ## To-Do:
 	* Add content to the header
-	* Make the notes open when clicked
+	* Make the notes green when clicked (to mark them as done)
 	* Add the ability to delete a note
 	* Prevent empty notes from being created
 	* Make them save to local storage, then reappear when the page is reopened
-	* Change fonts
-	* Add color and a dark mode
+	* Add dark mode?
 ___
 
 ### Log
+**24/10/21** Created a favicon. Fixed a couple of other things.
+
 **25/7/21:**  Created the header area, and created the note taking box (the box to write your note in). Added styles such as the styling of the button and text areas.
 
 **26/7/21:** Customised the scrollbar to look cleaner. Gave title should have a character limit of 50 letters, and the text of 700 characters. Made the note taking area slightly narrower.
