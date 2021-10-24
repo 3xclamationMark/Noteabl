@@ -64,7 +64,7 @@ function getText(){
 			case 10:
 				document.getElementById('10').appendChild(noteBoxTitle);
 				document.getElementById('10').appendChild(noteBoxContent);
-				break; 
+				break;
 		}
 
 		numNotes++;
@@ -72,3 +72,10 @@ function getText(){
 		alert('You have reached the max num of notes.');
 	}
 }
+
+/*
+	//when noteIsClicked, run(done)
+	function done(){
+		note.background-color: light-green;
+	}
+*/
